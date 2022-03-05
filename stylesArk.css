@@ -1,0 +1,39 @@
+body {
+  background-color: #191759;
+  color: white;
+}
+
+img {
+  position: relative;
+  width: 100px;
+  top: 130px;
+}
+
+h1 {
+  position: relative;
+
+  padding-top: 10%;
+  padding-left: 15%;
+  font-size: 20px;
+}
+
+h2 {
+  position: relative;
+
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.register {
+  position: relative;
+  height: 150px;
+
+  padding-left: 10%;
+}
+
+.registered {
+  position: relative;
+  height: 150px;
+
+  padding-left: 10%;
+}
