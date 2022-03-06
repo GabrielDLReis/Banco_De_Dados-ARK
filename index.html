@@ -1,33 +1,51 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tribos</title>
+  </head>
+  <body></body>
+</html>
 <body>
   <link rel="stylesheet" href="stylesArk.css" />
   <main>
-    <div class="imgIcon">
-      <img src="/Dados Ark/Img/ARK.png" alt="Ícone do Ark" />
+    <div class="sidenav">
+      <div class="container">
+        <span>
+          <img src="/Dados Ark/Img/ARK.png" alt="Ícone do Ark" />
+        </span>
+        <span>
+          <h1>Lista de Tribos</h1>
+        </span>
+      </div>
+      <h2 class="search1">Cadastrar:</h2>
 
-      <h1>Lista de Tribos</h1>
+      <form action="" class="register">
+        <label for="tname">Nome da Tribo:</label><br />
+        <input type="text" /><br /><br />
+
+        <label for="lname">Nome do Líder:</label><br />
+        <input type="text" /><br /><br />
+        <label for="mname">Nome dos Membros:</label><br />
+        <input type="text" />
+      </form>
+
+      <h2 class="search2">Cadastrados:</h2>
+
+      <form action="" class="registered">
+        <label for="tname">Localizar por Tribo:</label><br />
+        <input type="text" /><br /><br />
+
+        <label for="lname">Localizar por Líder:</label><br />
+        <input type="text" /><br /><br />
+        <label for="mname">Localizar por Membros:</label><br />
+        <input type="text" />
+      </form>
     </div>
-    <h2>Cadastrar:</h2>
-
-    <form action="" class="register">
-      <label for="tname">Nome da Tribo:</label><br />
-      <input type="text" /><br /><br />
-
-      <label for="lname">Nome do Líder:</label><br />
-      <input type="text" /><br /><br />
-      <label for="mname">Nome dos Membros:</label><br />
-      <input type="text" />
-    </form>
-
-    <h2>Cadastrados:</h2>
-
-    <form action="" class="registered">
-      <label for="tname">Localizar por Tribo:</label><br />
-      <input type="text" /><br /><br />
-
-      <label for="lname">Localizar por Líder:</label><br />
-      <input type="text" /><br /><br />
-      <label for="mname">Localizar por Membros:</label><br />
-      <input type="text" />
-    </form>
+    <div>
+      <h3>Banco de Dados</h3>
+      <p>Líder da Tribo: none</p>
+    </div>
   </main>
 </body>
