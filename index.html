@@ -1,10 +1,11 @@
 <html lang="pt-br">
   <head>
     <link rel="stylesheet" href="stylesArk.css" />
-    <script src="/Dados Ark/index.js"></script>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Lista de Tribos</title>
   </head>
 </html>
@@ -13,17 +14,17 @@
     <div class="sidenav">
       <div class="container">
         <span>
-          <img src="/Dados Ark/Img/ARK.png" alt="Ícone do Ark" />
+          <img src="/Front and end/Img/ARK.png" alt="Ícone do Ark" />
         </span>
         <span>
-          <h1>Lista de Tribos</h1>
+          <h1 id="Sla">Lista de Tribos</h1>
         </span>
       </div>
       <h2 class="search1">Cadastrar:</h2>
 
       <form action="" class="register">
         <label for="tname">Nome da Tribo:</label><br />
-        <input type="text" /><br /><br />
+        <input type="text" id="tribeName" /><br /><br />
 
         <label for="lname">Nome do Líder:</label><br />
         <input type="text" /><br /><br />
@@ -46,29 +47,32 @@
     <div class="content">
       <h3 class="dataBase">Banco de Dados</h2>
         <div class="textBox">
-          <table class="customers">
+          <table id="customers">
             <tr>
               <th>Tribo</th>
               <th>Líder</th>
               <th>Membros</th>            
             </tr>
-            <tr>
+             <tbody>
+              <!--<td>Lorem</td>
+              <td>Ipsum</td>
+              <td>dolor</td>            
+            </tbody>
+            <tbody>
+
+              <td>Lorem</td>
+              <td>Ipsum</td>
+              <td>dolor</td> 
+
+            </tbody>
+            <tbody>
               <td>Lorem</td>
               <td>Ipsum</td>
               <td>dolor</td>            
-            </tr>
-            <tr>
-              <td>Lorem</td>
-              <td>Ipsum</td>
-              <td>dolor</td>            
-            </tr>
-            <tr>
-              <td>Lorem</td>
-              <td>Ipsum</td>
-              <td>dolor</td>            
-            </tr>
+            </tbody> -->
           </table>
         </div>
     </div>
   </main>
 </body>
+<script src="/Front and end/index.js"></script>
