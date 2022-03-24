@@ -1,7 +1,0 @@
-{
-  "tribes": [
-    { "name": "Tribe A", "leader": "josé", "member": "teste" },
-    { "name": "Tribo B", "leader": "joaquim", "member": "teste" },
-    { "name": "Tribo dos Dahora", "leader": "heraldo" , "member": ["teste", "teste2", "teste3","teste"] }
-  ]
-}
