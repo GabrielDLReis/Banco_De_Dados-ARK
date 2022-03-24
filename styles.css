@@ -1,0 +1,173 @@
+:root {
+  --grey: #bdbdbd;
+  --dark-grey: #ebe5e5;
+  --waterblue: #3aa7a8;
+}
+/* Global -------------------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+body {
+  background-color: var(--grey);
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  padding-right: 1rem;
+}
+
+header {
+  background: var(--waterblue);
+  padding: 2rem 0 6rem 0;
+  margin: 0 auto 0 auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+header div {
+  padding-right: 2rem;
+}
+
+header div h1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+
+  display: inline;
+
+  margin: 0 0.1rem 0 -0.1rem;
+}
+#green {
+  margin: 0 -0.2rem 0 -0.4rem;
+  color: green;
+}
+
+#yellow {
+  color: yellow;
+}
+
+/*Main -------------------------*/
+.container {
+  width: min(90vw, 800px);
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  margin-top: -5.5rem;
+}
+
+.container .registers {
+  margin: 0 auto 0 auto;
+}
+/*Card -------------------------*/
+.card {
+  display: block;
+
+  border-radius: 5px;
+  margin: 2rem 0 0 0;
+  width: 30rem;
+  text-align: center;
+
+  border: black 1px solid;
+
+  line-height: 3rem;
+
+  background-color: white;
+}
+.card:hover {
+  background-color: rgb(214, 208, 208);
+}
+.card p {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+span {
+  font-weight: normal;
+  font-size: 1.5rem;
+  border-bottom: black 1px solid;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ion-icon {
+  padding-left: 10px;
+}
+
+/*Table-----------------------------------*/
+
+.register {
+  display: block;
+
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.register table {
+  border-radius: 1px;
+  margin: 0 auto 0 auto;
+  border-spacing: 0 0.2rem;
+}
+
+.register table thead th {
+  text-align: center;
+  background: white;
+  padding: 1rem 2rem;
+  color: var(--waterblue);
+
+  font-weight: normal;
+}
+
+.register table tbody td {
+  text-align: center;
+  font-weight: 400;
+
+  padding: 1rem 2rem;
+
+  color: grey;
+  background-color: var(--dark-grey);
+}
+.register table tbody td:hover {
+  background-color: white;
+}
+
+.register table tbody td:last-child {
+  color: var(--waterblue);
+}
+/*Footer ---------------------------------------*/
+footer {
+  margin: 10rem 0 0 0;
+  text-align: center;
+  display: block;
+
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: rgb(83, 81, 81);
+}
+
+/*Responsive -------------------------*/
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+  .registers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .card {
+    width: 15rem;
+  }
+}

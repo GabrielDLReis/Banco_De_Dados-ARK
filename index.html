@@ -1,78 +1,99 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
-    <link rel="stylesheet" href="stylesArk.css" />
-    
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Lista de Tribos</title>
+    <title>Database</title>
   </head>
-</html>
-<body>
-  <main>
-    <div class="sidenav">
-      <div class="container">
-        <span>
-          <img src="/Front and end/Img/ARK.png" alt="Ícone do Ark" />
-        </span>
-        <span>
-          <h1 id="Sla">Lista de Tribos</h1>
-        </span>
+  <body>
+    <header>
+      <img
+        src="/WebAppARK/assets/icons8-ark-survival-evolved-48.svg"
+        alt="Ícone do Ark"
+      />
+
+      <div>
+        <h1>Brasil Amigos</h1>
+        <h1 id="green"><strong> B</strong></h1>
+        <h1 id="yellow"><strong>R</strong></h1>
       </div>
-      <h2 class="search1">Cadastrar:</h2>
+    </header>
 
-      <form action="" class="register">
-        <label for="tname">Nome da Tribo:</label><br />
-        <input type="text" id="tribeName" /><br /><br />
+    <main class="container">
+      <section class="registers">
+        <!-- <h2>Registros</h2> -->
 
-        <label for="lname">Nome do Líder:</label><br />
-        <input type="text" /><br /><br />
-        <label for="mname">Nome dos Membros:</label><br />
-        <input type="text" />
-      </form>
-
-      <h2 class="search2">Cadastrados:</h2>
-
-      <form action="" class="registered">
-        <label for="tname">Localizar por Tribo:</label><br />
-        <input type="text" /><br /><br />
-
-        <label for="lname">Localizar por Líder:</label><br />
-        <input type="text" /><br /><br />
-        <label for="mname">Localizar por Membros:</label><br />
-        <input type="text" />
-      </form>
-    </div>
-    <div class="content">
-      <h3 class="dataBase">Banco de Dados</h2>
-        <div class="textBox">
-          <table id="customers">
-            <tr>
-              <th>Tribo</th>
-              <th>Líder</th>
-              <th>Membros</th>            
-            </tr>
-             <tbody>
-              <!--<td>Lorem</td>
-              <td>Ipsum</td>
-              <td>dolor</td>            
-            </tbody>
-            <tbody>
-
-              <td>Lorem</td>
-              <td>Ipsum</td>
-              <td>dolor</td> 
-
-            </tbody>
-            <tbody>
-              <td>Lorem</td>
-              <td>Ipsum</td>
-              <td>dolor</td>            
-            </tbody> -->
-          </table>
+        <div class="card">
+          <h3>
+            <span>Tribos</span>
+            <ion-icon name="checkmark-done-outline"></ion-icon>
+          </h3>
+          <p>150 Tribos</p>
         </div>
-    </div>
-  </main>
-</body>
-<script src="/Front and end/index.js"></script>
+
+        <div class="card">
+          <h3>
+            <span>Líderes</span>
+            <ion-icon name="checkmark-done-outline"></ion-icon>
+          </h3>
+          <p>150 Líderes</p>
+        </div>
+
+        <div class="card">
+          <h3>
+            <span>Membros</span>
+            <ion-icon name="checkmark-done-outline"></ion-icon>
+          </h3>
+          <p>300 Membros</p>
+        </div>
+      </section>
+    </main>
+
+    <section class="register">
+      <table>
+        <thead>
+          <tr>
+            <th>Tribos</th>
+            <th>Líderes</th>
+            <th>Membros</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SeuZecaPadin</td>
+            <td>Zeca</td>
+            <td>
+              Pagodinho
+              <!--</br>-->
+            </td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>SeuZeca</td>
+            <td>ZecaPadin</td>
+            <td>dinho</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+  <footer>Brasil AmigosBR</footer>
+</html>
